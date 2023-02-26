@@ -4,6 +4,7 @@
   "engines": {
     "node": ">=16.14 <18.0.0"
   },
+  "typings": "typings.d.ts",
   "scripts": {
     "dev": "vite --host",
     "build": "vue-tsc --noEmit && vite build",

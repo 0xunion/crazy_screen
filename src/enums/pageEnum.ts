@@ -18,6 +18,12 @@ export enum EditEnum {
   CHART_EDIT_NAME = 'ChartEdit',
 }
 
+export enum WebEnum {
+  // Web展示
+  WEB_DISPLAY = '/web/:id(.*)*',
+  WEB_DISPLAY_NAME = 'WebDisplay',
+}
+
 export enum PageEnum {
   // 登录
   BASE_LOGIN = '/login',
